@@ -1,0 +1,34 @@
+{
+  "id": "com.garredow.kaios-oauth-demo",
+  "name": "OAuth Demo",
+  "description": "An example of oauth in KaiOS.",
+  "version": "1.0.0",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/images/icon_128.png",
+    "112": "/images/icon_112.png",
+    "56": "/images/icon_56.png"
+  },
+  "theme_color": "#000000",
+  "developer": {
+    "name": "Garrett Downs",
+    "url": "https://garrettdowns.com"
+  },
+  "type": "privileged",
+  "permissions": {},
+  "locales": {
+    "en-US": {
+      "name": "OAuth Demo",
+      "subtitle": "An example of oauth in KaiOS.",
+      "description": "An example of oauth in KaiOS."
+    }
+  },
+  "default_locale": "en-US",
+  "cursor": true,
+  "redirects": [
+    {
+      "from": "http://com.garredow.kaios-oauth-demo/oauth",
+      "to": "/oauth.html"
+    }
+  ]
+}
