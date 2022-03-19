@@ -27,8 +27,12 @@
   "cursor": true,
   "redirects": [
     {
-      "from": "http://com.garredow.kaios-oauth-demo/oauth",
-      "to": "/oauth.html"
+      "from": "https://com.garredow.kaios-oauth-demo/auth0",
+      "to": "/auth0/index.html"
+    },
+    {
+      "from": "https://com.garredow.kaios-oauth-demo/openstreetmap",
+      "to": "/openstreetmap/index.html"
     }
   ]
 }
